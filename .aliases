@@ -149,3 +149,9 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# docker-compose shortcuts
+alias dcl='docker-compose -f local.yml'
+alias dclrun='docker-compose -f local.yml run --rm'
+
+
