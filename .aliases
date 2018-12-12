@@ -154,4 +154,5 @@ alias path='echo -e ${PATH//:/\\n}'
 alias dcl='docker-compose -f local.yml'
 alias dclrun='docker-compose -f local.yml run --rm'
 
-
+# AWS ElasticBeanstalk
+alias ebssh='eb ssh -e '\''ssh -i ~/.ssh/id_rsa'\'''
